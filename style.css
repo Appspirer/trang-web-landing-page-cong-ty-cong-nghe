@@ -1,0 +1,573 @@
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("includes/font/AvenirNextLTPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Medium";
+  src: url("includes/font/AvenirNextLTPro-Medium.otf");
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Bold";
+  src: url("includes/font/AvenirNextLTPro-Bold.otf");
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Demi";
+  src: url("includes/font/AvenirNextLTPro-Demi.otf");
+}
+
+@font-face {
+  font-family: "Gabriela Alt Bold";
+  src: url("includes/font/Gabriela-Alt-Bold.otf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container__section {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+/** header-section-start**/
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.padding__navbar {
+  padding: 0px 135px 0px 135px !important;
+}
+
+.navbar-brand img {
+  margin-top: 40px;
+}
+
+.navbar-nav {
+  gap: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  font-family: "Avenir Next LT Pro Demi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.8px;
+  color: #000000;
+}
+
+.navbar-nav button {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  padding: 12px 24px 14px 24px;
+  font-family: "Avenir Next LT Pro Demi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  border: none;
+}
+
+/** header-section-end**/
+
+/** banner-section-start**/
+
+.banner {
+  width: 100%;
+  height: 604px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.banner__wrap {
+  padding: 38px 0px 0px 135px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner__text {
+  margin-top: 94px;
+}
+
+.banner__text p {
+  font-family: "Gabriela Alt Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 113px;
+  color: #020e35;
+}
+
+.banner__text button {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  border: none;
+  padding: 12px 24px 14px 24px;
+  font-family: "Avenir Next LT Pro Demi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin-top: 35px;
+}
+/** banner-section-end**/
+
+/** about-us-section-start**/
+
+.about__us {
+  width: 100%;
+  height: 276px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 59px;
+}
+
+.div__line {
+  width: 100px;
+  height: 2px;
+  background: #e73587;
+}
+
+.about__us__wrap {
+  padding: 0px 308px;
+  display: flex;
+  justify-content: center;
+}
+
+.about__us__wrap .title {
+  font-family: "Gabriela Alt Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  color: #020e35;
+  margin-bottom: 18px;
+}
+
+.about__us__wrap .content {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2b2b2b;
+  margin-top: 18px;
+}
+
+.about__us__wrap .image__bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 138px;
+  height: 276px;
+  background-color: #f0f3fa;
+  border-top-right-radius: 148px;
+  border-bottom-right-radius: 148px;
+  border-left: 0;
+}
+
+/** about-us-section-end**/
+
+/** service-section-start**/
+
+.service {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 708px;
+  position: relative;
+}
+
+.service__wrap p {
+  font-family: "Gabriela Alt Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  color: #020e35;
+}
+
+.service__wrap__box {
+  padding: 49px 36px 0px 135px;
+  display: flex;
+}
+
+.service__wrap__item {
+  width: 1171px;
+  gap: 20px;
+  display: flex;
+}
+
+.service__wrap__item .item {
+  width: 377px;
+  height: 583px;
+  padding: 0px 20px;
+}
+
+.service__wrap__item .title {
+  font-family: "Avenir Next LT Pro Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2b2b2b;
+  margin-bottom: 23px;
+}
+
+.service__wrap__item .content {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2b2b2b;
+  margin-bottom: 63px;
+}
+
+.service__wrap__item div button {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  padding: 12px 34px 14px 34px;
+  border: none;
+  font-family: "Avenir Next LT Pro Demi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.service__wrap__item .item .app {
+  width: 100%;
+  height: 306px;
+  padding: 17px 9px 0px 9px;
+}
+
+.service__wrap__item .item .web {
+  width: 100%;
+  height: 306px;
+  padding: 31px 32px 0px 31px;
+}
+
+.service__wrap__item .item .ux {
+  width: 100%;
+  height: 306px;
+  padding: 31px 19px 0px 18px;
+}
+
+.bg__app {
+  background-color: #fdf8e3;
+}
+
+.bg__web {
+  background-color: #f0f3fa;
+}
+
+.bg__ux {
+  background-color: #feeff0;
+}
+
+.service__wrap__box .next {
+  margin-left: 22px;
+  margin-top: 250px;
+}
+
+.service__wrap__box .next img {
+  width: 76px;
+  height: 76px;
+}
+
+.bg__haft {
+  height: 290px;
+  width: 100%;
+  background: #020e35;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+/** service-section-end**/
+
+/** our-work-section-start**/
+
+.our__work {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 2111px;
+  background-color: #020e35;
+}
+
+.our__work__wrap {
+  margin-top: 100px;
+}
+
+.our__work__wrap p {
+  font-family: "Gabriela Alt Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.our__work__box {
+  margin-bottom: 50px;
+}
+
+.our__work__box .image__left {
+  padding: 0px 134px 0px 135px;
+  height: 390px;
+  display: flex;
+}
+
+.image__left img {
+  width: 587px;
+  height: 390px;
+}
+
+.image__left div {
+  margin-left: 20px;
+}
+
+.our__work__box .title {
+  font-family: "Avenir Next LT Pro Demi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  text-align: start;
+}
+
+.our__work__box .text {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  margin-top: 18px;
+  text-align: start;
+  margin-bottom: 50px;
+}
+
+.our__work__box .content {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: start;
+  color: #ffffff;
+}
+.margin--top--50 {
+  margin-top: 50px;
+}
+
+.margin--top--60 {
+  margin-top: 60px;
+}
+
+.margin--top--70 {
+  margin-top: 70px;
+}
+
+.our__work__box .image__right {
+  padding: 0px 134px 0px 135px;
+  height: 390px;
+  display: flex;
+}
+
+.image__right img {
+  width: 587px;
+  height: 390px;
+}
+
+.image__right div {
+  margin-right: 20px;
+}
+
+.image__right .title {
+  text-align: end;
+}
+
+.image__right .text {
+  text-align: end;
+}
+
+.image__right .content {
+  text-align: end;
+}
+
+.our__work__wrap div button {
+  padding: 12px 27.5px 14px 26.5px;
+  border: none;
+  font-family: "Avenir Next LT Pro Demi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
+
+/** our-work-section-end**/
+
+/** email-message-section-start**/
+
+.email__message {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 720px;
+}
+
+.email__message__wrap {
+  padding: 100px 134px 0px 135px;
+  gap: 33px;
+  display: flex;
+}
+
+.email__message__text {
+  width: 584px;
+}
+
+.email__message__text .title {
+  font-family: "Gabriela Alt Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  color: #020e35;
+  margin-bottom: -10px;
+}
+
+.email__message__text .content {
+  font-family: "Gabriela Alt Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 110px;
+  color: #020e35;
+}
+
+.email__message__text .content span {
+  color: #e73587;
+}
+
+.email__message__box {
+  width: 554px;
+}
+
+.email__message__box p {
+  font-family: "Avenir Next LT Pro Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2c3241;
+  margin-bottom: 8px;
+}
+
+.email__message__box input {
+  width: 100%;
+  padding-left: 15px;
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #2c3241;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  margin-bottom: 32px;
+}
+
+.email__message__box textarea {
+  width: 100%;
+  padding-left: 15px;
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #2c3241;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.email__message__box button {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Avenir Next LT Pro Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
+
+/** email-message-section-end**/
+
+/** footer-section-start**/
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  background: #020e35;
+}
+
+.footer__wrap {
+  padding-left: 135px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.footer__wrap div {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+/** footer-section-end**/
